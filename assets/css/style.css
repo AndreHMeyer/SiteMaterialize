@@ -1,0 +1,198 @@
+body{
+  background-color: #E8E8E8;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+nav .brand-logo{
+  margin-left: 100px;
+}
+
+nav ul{
+  margin-right: 100px;
+}
+
+nav li{
+  font-weight: 700;
+}
+
+.nav-wrapper{
+  background-color: #252424;
+}
+
+.sidenav{
+  background-color: #252424;
+}
+
+.sidenav li > a{
+  color: white;
+  font-size: 18px;
+}
+
+.slider{
+  margin-bottom: 10rem;
+}
+
+.slider .btn {
+  margin-top: 20px;
+  padding: 0 50px;
+  border-radius: 1%;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.section-contact {
+  margin-top: 100px;
+}
+
+h2{
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+h3{
+  font-weight: 500;
+  color: white;
+}
+
+a{
+  font-weight: 500;
+}
+
+p{
+  font-weight: 500;
+  text-align: justify;
+}
+
+.light{
+  font-weight: 400;
+}
+
+#socialMedias, .socialMedias{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 6rem;
+}
+
+.socialMedias i:hover{
+  color: #202020;
+}
+
+#points, #about, #services{
+  margin-bottom: 9rem;
+}
+
+.card i:hover{
+  background-color: #f50057;
+}
+
+.mapResponsive{
+  overflow:hidden;
+  padding-bottom: 46.25%;
+  position:relative;
+  height:0;
+}
+
+.name{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.links{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.footerWrapper{
+  background-color: #202020;
+}
+
+footer i:hover{
+  color: #bdbdbd;
+}
+
+.page-footer{
+  background-color: #252424;
+}
+
+.titleFooter{
+  margin-bottom: 30px;
+  color: #E0E0E0;
+}
+
+.listFooter{
+  margin-bottom: 15px;
+}
+
+.footerLinks{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+  margin-top: 8%;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #252424;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E0E0E0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E8E8E8;
+}
+
+@media screen and (max-width: 1300px){
+  .mapResponsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  nav .brand-logo {
+    margin-left: 10px;
+  }
+
+  footer{
+    margin-top: 10rem;
+  }
+
+  .footerLinks{
+    margin-top: -13%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  nav .brand-logo {
+    margin-left: 1rem;
+  }
+
+  .footerLinks{
+    margin-top: -25%;
+  }
+}
+
+
+
+
+
